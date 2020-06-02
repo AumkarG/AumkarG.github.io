@@ -28,7 +28,16 @@
 <div class="entry-body">
 <section>
 <p style="text-align: center;">The K-Means algorithm is a popular and simple clustering algorithm. This visualization shows you how it works.</p>
+<div  style="margin: auto;width:60%">
+<h1>What is K-Means</h1>
 
+<ol>
+<li><em>Initialization:</em> Create <i>N</i> nodes (circle) and randomly put initial <i>K</i> cluster (cross).</li>
+<li><em>Assignment step:</em> Assign each node (circle) to the nearest cluster (cross).</li>
+<li><em>Update step:</em> Each cluster (cross) move to the centroid of its nodes.</li>
+<li>Go to step 2.</li>
+</ol>
+</div>
 <div id="kmeans" style=" text-align:center">
 <div ><svg></svg></div>
 <div style="margin:auto"><button id="step">Step</button> <button id="restart" disabled>Restart</button></div>
@@ -258,16 +267,6 @@ init(); draw();
 </ul>
 </div>
 
-<div  style="margin: auto;width:60%">
-<h1>What is K-Means</h1>
-
-<ol>
-<li><em>Initialization:</em> Create <i>N</i> nodes (circle) and randomly put initial <i>K</i> cluster (cross).</li>
-<li><em>Assignment step:</em> Assign each node (circle) to the nearest cluster (cross).</li>
-<li><em>Update step:</em> Each cluster (cross) move to the centroid of its nodes.</li>
-<li>Go to step 2.</li>
-</ol>
-</div>
 <h1 style="text-align: center;"> Created using D3.js and ActionScript 3</h1>
 </div">
 </section>
