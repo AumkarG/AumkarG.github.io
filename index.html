@@ -27,6 +27,7 @@
 
         #particles-j
         {
+            height=100%;
               top: 0; 
               left: 0; 
             width: 100%;
@@ -35,9 +36,10 @@
     </style>
 
 </head>
-<body class="en"  id="particles-j" >
+<body class="en" >
+    <div id="particles-j" >
     
-        <div class="btext">
+        <div class="btext" id="xy">
             <h1 style="text-align: center;">Visualizing K-Means algorithm</h1>
                 <p style="margin: auto; width:50%">K-Means is a popular and simple clustering algorithm. K-means takes an unsupervised approach, which means that the input data points are not labelled, and the algorithm figures out the patterns on its own.<p>
                 <div  style="margin: auto;width:60%">
@@ -78,9 +80,13 @@
                <h1 style="text-align: center;"> Created using D3.js and ActionScript 3</h1>
             
         </div>
-
+</div>
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script>
+        var z =document.getElementById("xy").scrollHeight;
+        document.getElementById('particles-j').style.height=z.toString(10)+"px";
 
+    </script>
     <script>
         particlesJS.load('particles-j', './particles.json',
         function(){
