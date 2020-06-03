@@ -17,4 +17,5 @@ References and credits :
 https://www.youtube.com/watch?v=qK3cgD09Qf0
 https://github.com/VincentGarreau/particles.js/
 http://tech.nitoyon.com/en/blog/2013/11/07/k-means/
+https://github.com/nitoyon/tech.nitoyon.com/tree/html/en/blog/2013/11/07/k-means
 https://kkevsterrr.github.io/K-Means/
