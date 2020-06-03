@@ -38,14 +38,14 @@
     <div id="particles-j">
         <div class="btext">
             <h1 style="text-align: center;">Visualizing K-Means algorithm</h1>
-                <p style="text-align: center;">The K-Means algorithm is a popular and simple clustering algorithm. This visualization shows you how it works.<p>
+                <p style="margin: auto; width:50%">K-Means is a popular and simple clustering algorithm. K-means takes an unsupervised approach, which means that the input data points are not labelled, and the algorithm figures out the patterns on its own.<p>
                 <div  style="margin: auto;width:60%">
-                    <h1>What is K-Means</h1>
-                        <ol>
-                        <li><em>Initialization:</em> Create <i>N</i> nodes (circle) and randomly put initial <i>K</i> cluster (cross).</li>
-                        <li><em>Assignment step:</em> Assign each node (circle) to the nearest cluster (cross).</li>
-                        <li><em>Update step:</em> Each cluster (cross) move to the centroid of its nodes.</li>
-                        <li>Go to step 2.</li>
+                    <h1>Steps to execute kmeans </h1>
+                        <ol style="width:80%">
+                        <li><em>Initialization:</em> <i>K</i> centroids are randomly initialized </li>
+                        <li><em>Assignment step:</em> Each of the <i>N</i> data-points is assigned to the nearest cluster (centroid) </li>
+                        <li><em>Update step:</em> When all <i>N</i> nodes have been assigned, the new <i>K</i> centroids are computed by taking the average of the datapoints in each cluster </li>
+                        <li>Go to step 2 and repeat until the datapoints stop changing clusters</li>
                         </ol>
                 </div>
                 <script src="./d3.js" charset="utf-8"></script>
