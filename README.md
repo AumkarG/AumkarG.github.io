@@ -20,4 +20,5 @@ http://tech.nitoyon.com/en/blog/2013/11/07/k-means/<br>
 https://github.com/nitoyon/tech.nitoyon.com/tree/html/en/blog/2013/11/07/k-means<br>
 https://kkevsterrr.github.io/K-Means/ <br><br>
 
- Click [here] (https://aumkarg.github.io/) for the demo.
+ Click [here](https://aumkarg.github.io/) for the demo.
+It's very easy to make some words **bold** and other words *italic* with Markdown. You can even [link to Google!](http://google.com)
