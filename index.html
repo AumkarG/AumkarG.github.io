@@ -36,7 +36,7 @@
     </style>
 
 </head>
-<body class="en" >
+<body class="en" id="b" onresize="myFunction()">
     <div id="particles-j" >
     
         <div class="btext" id="xy">
@@ -82,10 +82,13 @@
         </div>
 </div>
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-  <script>
-        var z =document.getElementById("xy").scrollHeight;
-        z=z*1.35;
-        document.getElementById('particles-j').style.height=z.toString(10)+"px";
+   <script>
+        function myFunction() {
+            var z =document.getElementById("xy").scrollHeight;
+        document.getElementById('particles-js').style.height=z.toString(10)+"px";
+}
+myFunction();
+       
 
     </script>
     <script>
